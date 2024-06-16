@@ -5,8 +5,12 @@
     font-size: 24px;
 }
 
+html {
+    font-family: sans-serif;
+}
+
 body {
-    background-color: #e9e9e9;
+    background-color: #f4f4f4;
 }
 
 .page-header {
@@ -25,11 +29,10 @@ body {
 .container-nav {
     background-color: white;
     margin: 0 auto;
-    max-width: 1200px;
+    max-width: 1600px;
     padding-left: 50px;
     padding-right: 50px;
     border-radius: 5px;
-
 }
 
 .container {}
@@ -39,11 +42,13 @@ body {
     border-radius: 10px;
     line-height: 1.5;
     height: 80px;
+    margin-bottom: 25px;
 }
 
 .task {
-    background-color: rgb(167, 167, 255);
+    background-color: rgb(67, 145, 255);
     border-radius: 5px;
+    border: 1px solid rgb(67, 145, 255);
 }
 
 .section {
@@ -56,9 +61,20 @@ body {
     display: inline-block;
     vertical-align: middle;
     margin-top: 20px;
+    font-size: 20px;
+    padding: 0px 15px 0px 15px;
 }
 
 /* LISTE */
+
+.blocco-lista {
+    margin-bottom: 40px;
+    line-height: 2em;
+}
+
+.last-lista {
+    padding-bottom: 40px;
+}
 
 .list-item {
     font-size: 20px;
@@ -82,20 +98,21 @@ ul {
 .badge {
     color: white;
     border-radius: 999px;
-    padding: 4px;
-    font-size: 20px;
+    padding: 5px 20px 5px 20px;
+    font-size: 18px;
+    height: 30px;
 }
 
 .editorial {
-    background-color: blue;
+    background-color: rgb(67, 145, 255);
 }
 
 .goals {
-    background-color: purple;
+    background-color: rgb(216, 74, 241);
 }
 
 .recruiting {
-    background-color: green;
+    background-color: rgb(108, 213, 178);
 }
 
 .mobile {
@@ -103,17 +120,21 @@ ul {
 }
 
 .website {
-    background-color: pink;
+    background-color: fuchsia;
 }
 
 .sales {
-    background-color: greenyellow;
+    background-color: rgb(132, 184, 55);
 }
 
 .check {
     display: inline-block;
     border: 1px solid;
     border-radius: 50%;
+    padding: 0px 10px;
+    height: 40px;
+    width: 40px;
+    line-height: 1.5em;
 }
 
 .bg-green {
